@@ -1,0 +1,19 @@
+---
+title: "Mini curso Quarto Github Pages"
+subtitle: "III Jornadas de Ingeniería Estadística </br> 11 y 12 de noviembre, 2024"
+author:
+  - name: Francisco Plaza-Vega
+    email: francisco.plaza.v@usach.cl
+    affiliations:
+      - name: Universidad de Santiago de Chile </br> Departamento de Matemática y Ciencia de la Computación
+lang: es
+about:
+  template: jolla
+  image: JIE_logo.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/FranPlaza/Quarto-Github
+---
+
+Las slides que usaremos para este curso pueden ser [accedidas acá](slides/quarto-github-tutorial.html)
