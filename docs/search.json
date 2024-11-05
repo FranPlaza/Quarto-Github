@@ -5,5 +5,159 @@
     "title": "Mini curso Quarto Github Pages",
     "section": "",
     "text": "Las slides que usaremos para este curso pueden ser accedidas acá"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#example-slide",
+    "href": "slides/quarto-github-tutorial.html#example-slide",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Example slide",
+    "text": "Example slide\nThis is a subtitle\nBefore we dive a bit deeper, here is a simple example of the clean theme in action.\n\nNo pictures or anything fancy. Just text for the moment.\n\nNext, we’ll take a brief tour of some theme components.\n\nWe’ll use the same basic structure as the original LaTeX slides.\nNote that the full suite of Reveal.js features are available for this Quarto implementation, even if we don’t cover everything here."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#before-you-proceed",
+    "href": "slides/quarto-github-tutorial.html#before-you-proceed",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Before you proceed…",
+    "text": "Before you proceed…\nRequirements for the coding examples in this demo\nThe clean theme is language agnostic. Use it with R, Python, Julia, etc. Or none of the above.\nHowever, this demo uses R code to highlight advanced theme features. You’ll need to install some software if you’d like to render the demo “as-is”.\n\n\n\n\n\n\nRequired software (this demo only)\n\n\nR packages\ninstall.packages(c(\"modelsummary\", \"fixest\", \"pdftools\", \"tinytex\", \"threejs\"))\nTinyTex\nquarto install tinytex\nWhile reveal.js presentations are HTML format, we will show an example of how to embed LaTeX tables as images. This requires a working Tex distribution, of which TinyTex provides by far the easiest and lightest integration with Quarto. More details here."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-1",
+    "href": "slides/quarto-github-tutorial.html#components-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nOrdered and Unordered Lists\nHere we have an unordered list.\n\nfirst item\n\nsub-item\n\nsecond item\n\nAnd next we have an ordered one.\n\nfirst item\n\nsub-item\n\nsecond item"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-2",
+    "href": "slides/quarto-github-tutorial.html#components-2",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Section 5.3.”"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-3",
+    "href": "slides/quarto-github-tutorial.html#components-3",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nCitations\nCitations follow the standard Quarto format and be sourced from BibLaTex, BibTeX, or CLS files. For example:\n\nTopic 1: Spatial Frictions (Fajgelbaum et al. 2018; Hsieh and Moretti 2019; Moretti 2011)\nTopic 2: Blah (Suárez Serrato and Zidar 2016)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-4",
+    "href": "slides/quarto-github-tutorial.html#components-4",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nBlocks\nQuarto provides dedicated environments for theorems, lemmas, and so forth.\nBut in presentation format, it’s arguably more effective just to use a Callout Block.\n\n\n\n\n\n\nRegression Specification\n\n\nThe main specification is as follows:\n\\[\ny_{it} = X_{it} \\beta + \\mu_i + \\varepsilon_{it}\n\\]"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-5",
+    "href": "slides/quarto-github-tutorial.html#components-5",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nMulticolumn I: Text only\n\n\nColumn 1\nHere is a long sentence that will wrap onto the next line as it hits the column width, and continue this way until it stops.\n\nColumn 2\nSome other text in another column.\nA second paragraph.\n\nMulticolumn support is very flexible and we can continue with a single full span column in the same slide."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-6",
+    "href": "slides/quarto-github-tutorial.html#components-6",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nMulticolumn II: Text and figures\n\n\n\n\n\nA point about the figure that is potentially important.\nAnother point about the figure that is also potentially important.\n\n\nNote that sub- and multi-panel figures are also natively supported by Quarto. See here."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#components-7",
+    "href": "slides/quarto-github-tutorial.html#components-7",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Components",
+    "text": "Components\nMulticolumn III: Code and output\n\n\npalette(\"Classic Tableau\")\n\npar(\n  family = \"HersheySans\",\n  las = 1, pch = 19, cex = 1.5\n)\n\npairs(\n  iris[,1:4],\n  col=iris$Species\n)\n\n\n\n\n\n\n\n\nFigure 1: Pairwise scatterplot"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#markdown-tables",
+    "href": "slides/quarto-github-tutorial.html#markdown-tables",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Markdown tables",
+    "text": "Markdown tables\nDefault table styling\nThe clean theme rolls its own minimalist aesthetic for tables. This should interface directly with Quarto’s excellent table support.\n\n\n| fruit  | price  |\n|--------|-------:|\n| apple  | 2.05   |\n| pear   | 1.37   |\n| orange | 3.09   |\n\n: Fruit prices {tbl-colwidths=\"[75,25]\"}\n\n\n\n\nFruit prices\n\n\n\n\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#regression-tables",
+    "href": "slides/quarto-github-tutorial.html#regression-tables",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Regression tables",
+    "text": "Regression tables\nRegression example\nThese aesthetics should carry over to any computation-based tables too.\nLet’s take a few slides to illustrate via a simple regression example:\n\nlibrary(fixest)\n\nmods = feols(\n  rating ~ complaints + privileges + learning + csw0(raises + critical),\n  data = attitude\n)\n\ndict = c(\"rating\"     = \"Overall Rating\",\n         \"complaints\" = \"Handling of Complaints\",\n         \"privileges\" = \"No Special Priviledges\",\n         \"learning\"   = \"Opportunity to Learn\",\n         \"raises\"     = \"Performance-Based Raises\",\n         \"critical\"   = \"Too Critical\")"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#regression-tables-1",
+    "href": "slides/quarto-github-tutorial.html#regression-tables-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Regression tables",
+    "text": "Regression tables\nmodelsummary\nPopular regression table software should play nicely with this theme out of the box. Here’s an example using modelsummary (with the default tinytable backend1). See the next slide for the resulting table.\n\nlibrary(modelsummary) # Make sure you have &gt;=v2.0.0\n\nmodelsummary(\n  setNames(mods, c(\"(1)\", \"(2)\")),\n  coef_map = dict, stars = TRUE,\n  gof_map = NA\n  ) |&gt;\n  # some optional stylistic tweaks\n  tinytable::group_tt(j = list(\"Dep. variable: Overall Rating\" = 2:3)) |&gt;\n  tinytable::style_tt(i = 1:2, j = 2:3, background = \"pink\")\n\n\nFor extra styling options (e.g., bootstrap themes), see here."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#regression-tables-1-output",
+    "href": "slides/quarto-github-tutorial.html#regression-tables-1-output",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Regression tables",
+    "text": "Regression tables\n\n\n\n    \n\n    \n    \n      \n        \n\n \nDep. variable: Overall Rating\n\n        \n              \n                 \n                (1)\n                (2)\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  Handling of Complaints  \n                  0.682***\n                  0.692***\n                \n                \n                                          \n                  (0.129) \n                  (0.149) \n                \n                \n                  No Special Priviledges  \n                  -0.103  \n                  -0.104  \n                \n                \n                                          \n                  (0.129) \n                  (0.135) \n                \n                \n                  Opportunity to Learn    \n                  0.238+  \n                  0.249   \n                \n                \n                                          \n                  (0.139) \n                  (0.160) \n                \n                \n                  Performance-Based Raises\n                          \n                  -0.033  \n                \n                \n                                          \n                          \n                  (0.202) \n                \n                \n                  Too Critical            \n                          \n                  0.015   \n                \n                \n                                          \n                          \n                  (0.147)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#regression-tables-2",
+    "href": "slides/quarto-github-tutorial.html#regression-tables-2",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Regression tables",
+    "text": "Regression tables\nfixest::etable\nAside: We used the fantastic fixest package to estimate our regression models. fixest bundles its own powerful tabling functions. These were designed for LaTeX output, but can work with this (HTML) theme too.1\n\nSet the output: asis R chunk option in your Quarto doc.\nSet the markdown = TRUE fixest::etable option.\n\n```{r}\n#| output: asis\n\nsetFixest_etable(markdown = TRUE, drop = \"Constant\")\nsetFixest_dict(dict)\n\netable(mods, highlight = .(\"se\" = \"complaints\"))\n```\nDetails here. You need to install the tinytex & pdftools packages first."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#regression-tables-3",
+    "href": "slides/quarto-github-tutorial.html#regression-tables-3",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Regression tables",
+    "text": "Regression tables\nfixest::etable (cont.)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#figure",
+    "href": "slides/quarto-github-tutorial.html#figure",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Figure",
+    "text": "Figure"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#figure-1",
+    "href": "slides/quarto-github-tutorial.html#figure-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Figure",
+    "text": "Figure\nFull-size Figures\nYou can use the {.background-image} container environment to completely fill the slide background with an image.\nIdeally, your figure will be the same aspect ratio as the screen that you’re presenting on.\n\nThis can be a bit tricky because of the dynamic nature of reveal.js / HTML. But it’s probably something close to 16:9.\nAspect ratio can also matter for a regular full-frame images (previous slide)."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#interactive-plots",
+    "href": "slides/quarto-github-tutorial.html#interactive-plots",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Interactive plots",
+    "text": "Interactive plots\n\n\n\n\n\n\nNote: Simple flight data example using threejs. There are many interactive plotting options beyond this. (More details.)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#other-1",
+    "href": "slides/quarto-github-tutorial.html#other-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Other",
+    "text": "Other\nWhat else can the clean theme do?\nWe have highlighted some theme-specific components in this demo.\nBut please note that all of the standard reveal.js functionality and plugins are compatible with the clean theme. This includes:\n\nchalkboard for annotating slides.\nmultiplex for enabling audience navigation of your slides.\npdf printing in case you don’t have access to a web browser.\nEtc."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#summary-1",
+    "href": "slides/quarto-github-tutorial.html#summary-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Summary",
+    "text": "Summary\nA minimalist and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimalist and elegant presention theme. Here are some options to get you started.\nAdd the theme to an existing project.\nquarto install extension grantmcdermott/quarto-revealjs-clean\n… or, create a new project using our lean template.\nquarto use template grantmcdermott/quarto-revealjs-clean\n… or, create a new project using these demo slides as a full template.\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#references",
+    "href": "slides/quarto-github-tutorial.html#references",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "References",
+    "text": "References\n\n\nFajgelbaum, Pablo D, Eduardo Morales, Juan Carlos Suarez Serrato, and Owen Zidar. 2018. “State Taxes and Spatial Misallocation,” 90.\n\n\nHsieh, Chang-Tai, and Enrico Moretti. 2019. “Housing Constraints and Spatial Misallocation.” American Economic Journal: Macroeconomics 11 (2): 39.\n\n\nMoretti, Enrico. 2011. “Local Labor Markets.” In Handbook of Labor Economics. Vol. 4. Elsevier.\n\n\nSuárez Serrato, Juan Carlos, and Owen Zidar. 2016. “Who Benefits from State Corporate Tax Cuts? A Local Labor Markets Approach with Heterogeneous Firms.” American Economic Review 106 (9)."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#sec-appendix",
+    "href": "slides/quarto-github-tutorial.html#sec-appendix",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Appendix",
+    "text": "Appendix\n\n\n\n\nTable 1: Summary of the base R attitude dataset\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                Unique\n                Missing Pct.\n                Mean\n                SD\n                Min\n                Median\n                Max\n                Histogram\n              \n        \n        \n        \n                \n                  rating\n                  22\n                  0\n                  64.6\n                  12.2\n                  40.0\n                  65.5\n                  85.0\n                  \n                \n                \n                  complaints\n                  23\n                  0\n                  66.6\n                  13.3\n                  37.0\n                  65.0\n                  90.0\n                  \n                \n                \n                  privileges\n                  24\n                  0\n                  53.1\n                  12.2\n                  30.0\n                  51.5\n                  83.0\n                  \n                \n                \n                  learning\n                  23\n                  0\n                  56.4\n                  11.7\n                  34.0\n                  56.5\n                  75.0\n                  \n                \n                \n                  raises\n                  21\n                  0\n                  64.6\n                  10.4\n                  43.0\n                  63.5\n                  88.0\n                  \n                \n                \n                  critical\n                  21\n                  0\n                  74.8\n                  9.9\n                  49.0\n                  77.5\n                  92.0\n                  \n                \n                \n                  advance\n                  20\n                  0\n                  42.9\n                  10.3\n                  25.0\n                  41.0\n                  72.0\n                  \n                \n        \n      \n    \n\n\n\n\n\n\nBack to main"
   }
 ]

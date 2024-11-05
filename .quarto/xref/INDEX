@@ -1,5 +1,8 @@
 {
   "index.qmd": {
     "index.html": "b4be2680"
+  },
+  "slides/quarto-github-tutorial.qmd": {
+    "quarto-github-tutorial.html": "dcc2160d"
   }
 }

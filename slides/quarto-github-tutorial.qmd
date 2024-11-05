@@ -1,6 +1,6 @@
 ---
-title: Quarto reveal.js clean
-subtitle: A minimalist and elegant presentation theme
+title: "Mini curso: *Quarto* y *GitHub Pages*"
+subtitle: "III Jornadas de Ingeniería Estadística 2024 </br> 11 y 12 de Noviembre 2024, Auditorio DMCC </br> Universidad de Santiago de Chile"
 format: 
   clean-revealjs:
     self-contained: true
@@ -8,15 +8,9 @@ html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
-  - name: Grant McDermott
-    orcid: 0000-0001-7883-8573
-    email: gmcd@amazon.com
-    affiliations: Amazon.com
-  - name: Kyle Butts
-    orcid: 0000-0002-9048-8059
-    email: kyle.butts@colorado.edu
-    affiliations: UC Boulder
-date: last-modified
+  - name: Francisco Plaza Vega
+    email: francisco.plaza.v@usach.cl
+    affiliations: USACH
 bibliography: refs.bib
 ---
 
