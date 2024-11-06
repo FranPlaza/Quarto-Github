@@ -1,6 +1,19 @@
 ---
 title: "Mini curso: *Quarto* y *GitHub Pages*"
-subtitle: "III Jornadas de Ingeniería Estadística 2024 </br> 11 y 12 de Noviembre 2024, Auditorio DMCC </br> Universidad de Santiago de Chile"
+subtitle: |
+  <table style="width:100%;">
+    <tr>
+      <td style="text-align: left;">
+        III Jornadas de Ingeniería Estadística 2024 </br> 
+        11 y 12 de Noviembre 2024, Auditorio DMCC </br> 
+        Universidad de Santiago de Chile
+      </td>
+      <td style="text-align: right; vertical-align: top;">
+        <img src="images/JIE_logo.png" alt="Logo JIE" style="height: 100px;">
+      </td>
+    </tr>
+  </table>
+lang: es
 format: 
   clean-revealjs:
     self-contained: true
@@ -13,6 +26,12 @@ author:
     affiliations: USACH
 bibliography: refs.bib
 ---
+
+![](images/JIE_logo.png){fig-align="center" width="150px"}
+
+# Introducción {background-color="#40666e"}
+
+
 
 ## Example slide
 
