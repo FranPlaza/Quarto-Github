@@ -27,11 +27,42 @@ author:
 bibliography: refs.bib
 ---
 
-![](images/JIE_logo.png){fig-align="center" width="150px"}
+# Introducción {background-color="#212f4b"}
 
-# Introducción {background-color="#40666e"}
+## Investigación Reproducible
 
+::: box1
+Es la práctica de conducir estudios científicos o basados en datos de tal manera que **permita a otros replicar o reproducir los resultados usando los mismos datos, códigos y metodologías**.
+:::
 
+::: {.r-stack}
+::: {.fragment .fade-in-then-out}
+![](images/git_github.png){width=50% fig-align="center"}
+:::
+::: {.fragment .fade-in-then-out}
+![](images/LaTeX_logo.svg.png){width=50% fig-align="center"}
+:::
+::: {.fragment .fade-in-then-out}
+
+::: {layout-ncol=2}
+![](images/R_logo.svg.png){width=30% fig-align="left"}
+
+![](images/RStudio-Logo-Flat.png){width=70% fig-align="right"}
+:::
+:::
+
+::: {.fragment .fade-in-then-out}
+![](images/quarto.png){width=100% fig-align="center"}
+:::
+:::
+
+# Templates
+
+## Este tutorial
+
+Este tutorial usa un template llamado clean. Está disponible en un repositorio en [GitHub](https://github.com/grantmcdermott/quarto-revealjs-clean).
+
+# Other stuff
 
 ## Example slide
 

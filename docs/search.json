@@ -32,7 +32,7 @@
     "href": "slides/quarto-github-tutorial.html#components-2",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Components",
-    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 6.3.”"
+    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 8.3.”"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#components-3",
@@ -159,5 +159,19 @@
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Appendix",
     "text": "Appendix\n\n\n\n\nTabla 1: Summary of the base R attitude dataset\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                Unique\n                Missing Pct.\n                Mean\n                SD\n                Min\n                Median\n                Max\n                Histogram\n              \n        \n        \n        \n                \n                  rating\n                  22\n                  0\n                  64.6\n                  12.2\n                  40.0\n                  65.5\n                  85.0\n                  \n                \n                \n                  complaints\n                  23\n                  0\n                  66.6\n                  13.3\n                  37.0\n                  65.0\n                  90.0\n                  \n                \n                \n                  privileges\n                  24\n                  0\n                  53.1\n                  12.2\n                  30.0\n                  51.5\n                  83.0\n                  \n                \n                \n                  learning\n                  23\n                  0\n                  56.4\n                  11.7\n                  34.0\n                  56.5\n                  75.0\n                  \n                \n                \n                  raises\n                  21\n                  0\n                  64.6\n                  10.4\n                  43.0\n                  63.5\n                  88.0\n                  \n                \n                \n                  critical\n                  21\n                  0\n                  74.8\n                  9.9\n                  49.0\n                  77.5\n                  92.0\n                  \n                \n                \n                  advance\n                  20\n                  0\n                  42.9\n                  10.3\n                  25.0\n                  41.0\n                  72.0\n                  \n                \n        \n      \n    \n\n\n\n\n\n\nBack to main"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#investigación-reproducible",
+    "href": "slides/quarto-github-tutorial.html#investigación-reproducible",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Investigación Reproducible",
+    "text": "Investigación Reproducible\n\nEs la práctica de conducir estudios científicos o basados en datos de tal manera que permita a otros replicar o reproducir los resultados usando los mismos datos, códigos y metodologías."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#este-tutorial",
+    "href": "slides/quarto-github-tutorial.html#este-tutorial",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Este tutorial",
+    "text": "Este tutorial\nEste tutorial usa un template llamado clean. Está disponible en un repositorio en GitHub."
   }
 ]
