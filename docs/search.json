@@ -32,7 +32,7 @@
     "href": "slides/quarto-github-tutorial.html#components-2",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Components",
-    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 15.3.”"
+    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 13.3.”"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#components-3",
@@ -326,7 +326,7 @@
     "href": "slides/quarto-github-tutorial.html#links-e-imágenes",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Links e Imágenes",
-    "text": "Links e Imágenes\n\n\n\nMarkdown Syntax\n&lt;https://quarto.org&gt;\nOutput\nhttps://quarto.org\n\n\n\n\n\n\n\n\n[Quarto](https://quarto.org)\nQuarto\n\n\n\nmarkdown                                                             | ![Caption](images/JIE_logo.png){width=\"20%\" fig-alt=\"Logo USM\"}                                                  | ![Caption](images/JIE_logo.png)                                       |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![Caption](images/JIE_logo.png){width=\"20%\"}](https://quarto.org)                                               | [![Caption](images/JIE_logo.png)](https://quarto.org)                 |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![Caption](images/JIE_logo.png \"JIE-2024\"){width=\"20%\" fig-alt=\"JIE-2024\"}](https://quarto.org)          | [![Caption](images/JIE_logo.png)](https://quarto.org \"JIE-2024\")      |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![](images/JIE_logo.png){width=\"20%\" fig-alt=\"Alt text.\"}](https://jornadas-estadistica.github.io/) [![](images/JIE_logo.png){fig-alt=\"Alt text\"}](https://jornadas-estadistica.github.io/)    | | |"
+    "text": "Links e Imágenes\n\n\n\nSintáxis Markdown\nSalida\n\n\n\n\n&lt;https://quarto.org&gt;\nhttps://quarto.org\n\n\n[Quarto](https://quarto.org)\nQuarto\n\n\n![Caption](images/JIE_logo.png)\n\n\n\nCaption\n\n\n\n\n[![Caption](images/JIE_logo.png)](https://quarto.org)\n\n\n\n[![Caption](images/JIE_logo.png)](https://quarto.org \"JIE-2024\")\n\n\n\n[![](images/JIE_logo.png){fig-alt=\"Alt text\"}](https://jornadas-estadistica.github.io/)"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#listas",
@@ -340,7 +340,7 @@
     "href": "slides/quarto-github-tutorial.html#listas-1",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Listas",
-    "text": "Listas\n\n\n\n\n\n\n\n(@)  Una lista cuyos números\n\ncontinuan después\n\n(@)  de una interrupción\n\nUna lista cuyos números\n\ncontinuan después\n\nde una interrupción\n\n\n\n::: {}\n1. Una lista\n:::\n\n::: {}\n1. Seguida de otra lista\n:::\n\n\nUna lista\n\n\n\n\nSeguida de otra lista\n\n\n\n\ntérmino\n: definición\n\ntérmino\n\ndefinición"
+    "text": "Listas\n\n\n\n\n\n\n\nSintáxis Markdown\nSalida\n\n\n\n\n(@)  Una lista cuyos números\n\ncontinuan después\n\n(@)  de una interrupción\n\nUna lista cuyos números\n\ncontinuan después\n\nde una interrupción\n\n\n\n::: {}\n1. Una lista\n:::\n\n::: {}\n1. Seguida de otra lista\n:::\n\n\nUna lista\n\n\n\n\nSeguida de otra lista\n\n\n\n\ntérmino\n: definición\n\ntérmino\n\ndefinición"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#tablas",
@@ -354,7 +354,7 @@
     "href": "slides/quarto-github-tutorial.html#código-de-fuente",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Código de fuente",
-    "text": "Código de fuente\nUsamos ``` para delimitar bloques de código:\n```\ncódigo\n```\nPodemos agregar un lenguaje para destacar el código:\n```python\n1 + 1\n```\nPandoc ofrece 140 distintos lenguajes para destacar código."
+    "text": "Código de fuente\nUsamos ``` para delimitar bloques de código:\n\n```\ncódigo\n\n```\nPodemos agregar un lenguaje para destacar el código:\n\n``` python\n1 + 1\n```\nPandoc ofrece 140 distintos lenguajes para destacar código."
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#guía-de-referencia",
