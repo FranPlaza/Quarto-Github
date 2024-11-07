@@ -32,7 +32,7 @@
     "href": "slides/quarto-github-tutorial.html#components-2",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Components",
-    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 8.3.”"
+    "text": "Components\nAlerts & Cross-refs\nTo emphasize specific words or text, you can:\n\nUse the default .alert class, e.g. important note.\nUse the .fg class for custom colour, e.g. important note.\nUse the .bg class for custom background, e.g. important note.\n\nTo cross-reference, you have several options, for example:\n\nBeamer-like .button class provided by this theme, e.g. Appendix\nQuarto’s native cross-ref syntax, e.g., “See Sección 15.3.”"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#components-3",
@@ -173,5 +173,215 @@
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Este tutorial",
     "text": "Este tutorial\nEste tutorial usa un template llamado clean. Está disponible en un repositorio en GitHub."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#qué-es-la-investigación-reproducible",
+    "href": "slides/quarto-github-tutorial.html#qué-es-la-investigación-reproducible",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "¿Qué es la Investigación Reproducible?",
+    "text": "¿Qué es la Investigación Reproducible?\n\n\n\nEs la práctica de conducir estudios científicos o basados en datos de tal manera que permita a otros replicar o reproducir los resultados usando los mismos datos, códigos y metodologías."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#etapas-de-una-investigación-reproducible",
+    "href": "slides/quarto-github-tutorial.html#etapas-de-una-investigación-reproducible",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Etapas de una Investigación Reproducible",
+    "text": "Etapas de una Investigación Reproducible"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#ciencia-abierta",
+    "href": "slides/quarto-github-tutorial.html#ciencia-abierta",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Ciencia Abierta",
+    "text": "Ciencia Abierta"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#espectro-de-reproducibilidad",
+    "href": "slides/quarto-github-tutorial.html#espectro-de-reproducibilidad",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Espectro de Reproducibilidad",
+    "text": "Espectro de Reproducibilidad"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#repositorio",
+    "href": "slides/quarto-github-tutorial.html#repositorio",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Repositorio",
+    "text": "Repositorio\n\n\n\n\n\n\n\nEnlaces importantes\n\n\n\nSitio web del Mini Curso: https://franplaza.github.io/Quarto-Github/\nRepositorio en GitHub: https://github.com/FranPlaza/Quarto-Github"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#enlaces-importantes",
+    "href": "slides/quarto-github-tutorial.html#enlaces-importantes",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Enlaces importantes",
+    "text": "Enlaces importantes\n\nSitio web del Mini Curso: https://franplaza.github.io/Quarto-Github/\nRepositorio en GitHub: https://github.com/FranPlaza/Quarto-Github"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#r-project",
+    "href": "slides/quarto-github-tutorial.html#r-project",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "R project",
+    "text": "R project\n\nhttps://cran.dcc.uchile.cl/"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#rsudio-ide",
+    "href": "slides/quarto-github-tutorial.html#rsudio-ide",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "RSudio IDE",
+    "text": "RSudio IDE\n\nhttps://posit.co/download/rstudio-desktop/\n\nExisten otras alternativas más génericas como Visual Studio Code, un editor de código para múltiples lenguajes. Sin embargo, al no ser un software especializado en R, requiere utilizar extensiones para lograr las funcionalidad que otorga RStudio."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#quarto",
+    "href": "slides/quarto-github-tutorial.html#quarto",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Quarto",
+    "text": "Quarto\n\nhttps://quarto.org/docs/get-started/"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#git-github",
+    "href": "slides/quarto-github-tutorial.html#git-github",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Git & Github",
+    "text": "Git & Github\n\n\nCuenta en GitHub\nGithub Desktop"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#rmarkdown-quarto",
+    "href": "slides/quarto-github-tutorial.html#rmarkdown-quarto",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Rmarkdown & Quarto",
+    "text": "Rmarkdown & Quarto\n\n\nEl paquete rmarkdown provee un marco de escritura para investigaciones cuentitativas, que combina códigos, resultados y texto. Los documento R Markdown son completamente reproducibles y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. Quarto es la nueva generación de esta herramienta para incluir distintos lenguajes."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#algunos-ejemplos",
+    "href": "slides/quarto-github-tutorial.html#algunos-ejemplos",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Algunos ejemplos",
+    "text": "Algunos ejemplos\n\nGalería de ejemplos"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#quarto-2",
+    "href": "slides/quarto-github-tutorial.html#quarto-2",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Quarto",
+    "text": "Quarto\n\nLos archivos Quarto fueron diseñados para ser usados de tres maneras:\n\nPara comunicar a los tomadores de decisiones, quienes quieren centrarse en las conclusiones, no en el código detrás del análisis.\nPara colaborar con otros investigadores, quienes están interesados en las conclusiones y el cómo se llego a ellas (i.e. el código)\nComo un ambiente para hacer análisis, como un notebook donde se puede capturar el trabajo realizado junto a notas de este."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#primeros-pasos",
+    "href": "slides/quarto-github-tutorial.html#primeros-pasos",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Primeros pasos",
+    "text": "Primeros pasos\n\nEntrar a Quarto.org\nDescargar Quarto para tu sistema operativo\nIngresar a RStudio y crear documento .qmd"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#flujo-documento-quarto",
+    "href": "slides/quarto-github-tutorial.html#flujo-documento-quarto",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Flujo documento Quarto",
+    "text": "Flujo documento Quarto\n\n\nqmd: archivo de origen\nknitr: Herramienta que interpreta y ejecuta códigos y lo traduce en texto markdown\nmd: texto escrito en lenguaje markdown\npandoc: Herramienta que convierte archivos .md enb distintos formatos"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#anatomía-de-un-documento-quarto",
+    "href": "slides/quarto-github-tutorial.html#anatomía-de-un-documento-quarto",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Anatomía de un documento Quarto",
+    "text": "Anatomía de un documento Quarto\n\nEncabezado en formato YAML\nTexto en formato Quarto\nBloques de código (R, Python, Julia, Observable)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#yaml",
+    "href": "slides/quarto-github-tutorial.html#yaml",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "YAML",
+    "text": "YAML\n\nYAML es un formato de serialización de datos que puede ser leído fácilmente. Su uso es amplio, desde Acciones en GitHub hasta Quarto\n\nUn ejemplo de YAML que difine un ambiente computacional podría ser:\n# Define the operating system as Linux\nos: linux\n\n# Use the xenial distribution of Linux\ndist: xenial\n\n# Use the programming language Python\nlanguage: python\n\n# Use version of Python 3.2\npython: 3.2\n\n\nYAML nos será de particular interés para la creación de documentos y presentaciones reproducibles, utilizando quarto."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#herramientas",
+    "href": "slides/quarto-github-tutorial.html#herramientas",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Herramientas",
+    "text": "Herramientas\nEl contenido del documento puede estar escrito utilizando diferentes formatos, entre ellos:\n\nQuarto\nHTML\nLaTeX\nCSS"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#creación-de-documento-básico",
+    "href": "slides/quarto-github-tutorial.html#creación-de-documento-básico",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Creación de documento básico",
+    "text": "Creación de documento básico\n\nAbrir RStudio\nFile &gt; New File &gt; Quarto Document\nDefinir características del documento"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#formato-de-texto",
+    "href": "slides/quarto-github-tutorial.html#formato-de-texto",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Formato de Texto",
+    "text": "Formato de Texto\n\n\n\n\n\n\n\nSintáxis Markdown\nSalida\n\n\n\n\n*italics*, **bold**, ***bold italics***\nitalics, bold, bold italics\n\n\nsuperscript^2^ / subscript~2~\nsuperscript2 / subscript2\n\n\n~~strikethrough~~\nstrikethrough\n\n\n`verbatim code`\nverbatim code"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#headings",
+    "href": "slides/quarto-github-tutorial.html#headings",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Encabezados",
+    "text": "Encabezados\n\n\n\n\n\n\n\nSintáxis Markdown\nSalida\n\n\n\n\n# Header 1\nHeader 1\n\n\n## Header 2\nHeader 2\n\n\n### Header 3\nHeader 3\n\n\n#### Header 4\nHeader 4\n\n\n##### Header 5\nHeader 5\n\n\n###### Header 6\nHeader 6"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#links-e-imágenes",
+    "href": "slides/quarto-github-tutorial.html#links-e-imágenes",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Links e Imágenes",
+    "text": "Links e Imágenes\n\n\n\nMarkdown Syntax\n&lt;https://quarto.org&gt;\nOutput\nhttps://quarto.org\n\n\n\n\n\n\n\n\n[Quarto](https://quarto.org)\nQuarto\n\n\n\nmarkdown                                                             | ![Caption](images/JIE_logo.png){width=\"20%\" fig-alt=\"Logo USM\"}                                                  | ![Caption](images/JIE_logo.png)                                       |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![Caption](images/JIE_logo.png){width=\"20%\"}](https://quarto.org)                                               | [![Caption](images/JIE_logo.png)](https://quarto.org)                 |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![Caption](images/JIE_logo.png \"JIE-2024\"){width=\"20%\" fig-alt=\"JIE-2024\"}](https://quarto.org)          | [![Caption](images/JIE_logo.png)](https://quarto.org \"JIE-2024\")      |                                                                                                                     | | |\n\n\n\n\nmarkdown                                                             | [![](images/JIE_logo.png){width=\"20%\" fig-alt=\"Alt text.\"}](https://jornadas-estadistica.github.io/) [![](images/JIE_logo.png){fig-alt=\"Alt text\"}](https://jornadas-estadistica.github.io/)    | | |"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#listas",
+    "href": "slides/quarto-github-tutorial.html#listas",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Listas",
+    "text": "Listas\n\n\n\n\n\n\n\nSintáxis Markdown\nSalida\n\n\n\n\n* Lista no ordenada\n    + sub-item 1\n    + sub-item 2\n        - sub-sub-item 1\n\nLista no ordenada\n\nsub-item 1\nsub-item 2\n\nsub-sub-item 1\n\n\n\n\n\n*   item 2\n\n    Continuación (4 spaces)\n\nitem 2\nContinuación (4 spaces)\n\n\n\n1. Lista ordenada\n2. item 2\n    i) sub-item 1\n         A.  sub-sub-item 1\n\nLista ordenada\nitem 2\n\nsub-item 1\n\nsub-sub-item 1"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#listas-1",
+    "href": "slides/quarto-github-tutorial.html#listas-1",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Listas",
+    "text": "Listas\n\n\n\n\n\n\n\n(@)  Una lista cuyos números\n\ncontinuan después\n\n(@)  de una interrupción\n\nUna lista cuyos números\n\ncontinuan después\n\nde una interrupción\n\n\n\n::: {}\n1. Una lista\n:::\n\n::: {}\n1. Seguida de otra lista\n:::\n\n\nUna lista\n\n\n\n\nSeguida de otra lista\n\n\n\n\ntérmino\n: definición\n\ntérmino\n\ndefinición"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#tablas",
+    "href": "slides/quarto-github-tutorial.html#tablas",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Tablas",
+    "text": "Tablas\nSintáxis Markdown\n| Right | Left | Default | Center |\n|------:|:-----|---------|:------:|\n|   12  |  12  |    12   |    12  |\n|  123  |  123 |   123   |   123  |\n|    1  |    1 |     1   |     1  |\nOutput\n\n\n\nRight\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#código-de-fuente",
+    "href": "slides/quarto-github-tutorial.html#código-de-fuente",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Código de fuente",
+    "text": "Código de fuente\nUsamos ``` para delimitar bloques de código:\n```\ncódigo\n```\nPodemos agregar un lenguaje para destacar el código:\n```python\n1 + 1\n```\nPandoc ofrece 140 distintos lenguajes para destacar código."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#guía-de-referencia",
+    "href": "slides/quarto-github-tutorial.html#guía-de-referencia",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Guía de referencia",
+    "text": "Guía de referencia\nPara una lista exhaustiva de las opciones de formato que tienen los documentos .qmd visitar https://quarto.org/docs/guide/."
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#formatos-de-salida-documentos",
+    "href": "slides/quarto-github-tutorial.html#formatos-de-salida-documentos",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Formatos de salida: Documentos",
+    "text": "Formatos de salida: Documentos\nLos formatos de salida más utilizados para documentos creados con Quarto son:\n\nHTML\nPDF\nDOCX\n\n\nPara cambiar entre estos formatos, basta especificiar la salida deseada en el YAML. Otros formatos posibles:\n\nOpenOffice\nePub"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#formatos-de-salida-presentaciones",
+    "href": "slides/quarto-github-tutorial.html#formatos-de-salida-presentaciones",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Formatos de salida: Presentaciones",
+    "text": "Formatos de salida: Presentaciones\nEn Quarto tenemos 3 opciones para presentaciones:\n\nRevealJS\nPowerPoint\nBeamer\n\nEn donde RevealJS es el formato que nos entrega más herramientas. (Esta presentación fue hecha utilizando RevealJS en Quarto)"
+  },
+  {
+    "objectID": "slides/quarto-github-tutorial.html#caso-práctico",
+    "href": "slides/quarto-github-tutorial.html#caso-práctico",
+    "title": "Mini curso: Quarto y GitHub Pages",
+    "section": "Caso práctico",
+    "text": "Caso práctico\n\nCrearemos un mismo documento en distintos formatos\n\nAwesome Quarto"
   }
 ]

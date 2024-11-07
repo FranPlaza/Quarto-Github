@@ -29,32 +29,391 @@ bibliography: refs.bib
 
 # Introducción {background-color="#212f4b"}
 
-## Investigación Reproducible
+## ¿Qué es la Investigación Reproducible?
 
-::: box1
+::: {.callout-note appearance="simple" icon=false}
 Es la práctica de conducir estudios científicos o basados en datos de tal manera que **permita a otros replicar o reproducir los resultados usando los mismos datos, códigos y metodologías**.
 :::
 
-::: {.r-stack}
-::: {.fragment .fade-in-then-out}
-![](images/git_github.png){width=50% fig-align="center"}
-:::
-::: {.fragment .fade-in-then-out}
-![](images/LaTeX_logo.svg.png){width=50% fig-align="center"}
-:::
-::: {.fragment .fade-in-then-out}
+![](images/reproducibility.jpg){width=70% fig-align="center"}
 
-::: {layout-ncol=2}
-![](images/R_logo.svg.png){width=30% fig-align="left"}
 
-![](images/RStudio-Logo-Flat.png){width=70% fig-align="right"}
-:::
+## Etapas de una Investigación Reproducible
+
+![](images/research-cycle.png){width=70% fig-align="center"}
+
+## Ciencia Abierta
+
+![](images/evolution-open-research.png){width=60% fig-align="center"}
+
+## Espectro de Reproducibilidad
+
+![](images/Reproducible.png){width=60% fig-align="center"}
+
+
+# Qué necesitaremos? {background-color="#212f4b"}
+
+## Repositorio
+
+:::{.callout-tip title="Enlaces importantes"}
+- Sitio web del Mini Curso: [https://franplaza.github.io/Quarto-Github/](https://franplaza.github.io/Quarto-Github/)
+- Repositorio en GitHub: [https://github.com/FranPlaza/Quarto-Github](https://github.com/FranPlaza/Quarto-Github)
 :::
 
-::: {.fragment .fade-in-then-out}
-![](images/quarto.png){width=100% fig-align="center"}
+# Sofware necesarios
+
+## R project
+
+![](images/R_logo.svg.png){width=40% fig-align="center"}
+
+[https://cran.dcc.uchile.cl/](https://cran.dcc.uchile.cl/)
+
+## RSudio IDE
+
+![](images/RStudio-Logo-Flat.png){width=60% fig-align="center"}
+
+[https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
+
+> Existen otras alternativas más *génericas* como [Visual Studio Code](https://code.visualstudio.com/), un editor de código para múltiples lenguajes. Sin embargo, al no ser un software especializado en R, requiere utilizar extensiones para lograr las funcionalidad que otorga RStudio.
+
+## Quarto
+
+![](images/quarto.png){width=50% fig-align="center"}
+
+[https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/)
+
+## Git & Github
+
+![](images/git_github.png){width=45% fig-align="center"}
+
+- Cuenta en [GitHub](https://github.com/)
+
+- [Github Desktop](https://desktop.github.com/)
+
+
+# Quarto {background-color="#212f4b"}
+
+## Rmarkdown & Quarto
+
+![](images/rmarkdown_quarto.png){width="50%" fig-align="center"}
+
+::: box3
+El paquete `rmarkdown` provee un marco de escritura para investigaciones cuentitativas, que combina códigos, resultados y texto. Los documento R Markdown son **completamente reproducibles** y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. `Quarto` es la nueva generación de esta herramienta para incluir distintos lenguajes.
 :::
+
+## Algunos ejemplos
+
+-   [Galería de ejemplos](https://quarto.org/docs/gallery/)
+
+## Quarto
+
+![](images/quarto2.png){width="70%" fig-align="center"}
+
+Los archivos `Quarto` fueron diseñados para ser usados de tres maneras:
+
+1.  Para comunicar a los tomadores de decisiones, quienes quieren centrarse en las conclusiones, no en el código detrás del análisis.
+
+2.  Para colaborar con otros investigadores, quienes están interesados en las conclusiones y el cómo se llego a ellas (i.e. el código)
+
+3.  Como un ambiente para hacer análisis, como un *notebook* donde se puede capturar el trabajo realizado junto a notas de este.
+
+## Primeros pasos
+
+1.  Entrar a [Quarto.org](https://quarto.org/docs/get-started/)
+2.  Descargar `Quarto` para tu sistema operativo
+3.  Ingresar a `RStudio` y crear documento `.qmd`
+
+## Flujo documento Quarto
+
+![](images/rstudio-qmd-how-it-works.png){width="50%" fig-align="center"}
+
+-   `qmd`: archivo de origen
+-   `knitr`: Herramienta que interpreta y ejecuta códigos y lo traduce en texto **markdown**
+-   `md`: texto escrito en lenguaje **markdown**
+-   `pandoc`: Herramienta que convierte archivos `.md` enb distintos formatos
+
+## Anatomía de un documento Quarto
+
+1.  Encabezado en formato `YAML`
+2.  Texto en formato `Quarto`
+3.  Bloques de código (`R`, `Python`, `Julia`, `Observable`)
+
+
+## YAML
+
+> YAML es un formato de *serialización* de datos que puede ser leído fácilmente. Su uso es amplio, desde Acciones en GitHub hasta Quarto
+
+Un ejemplo de YAML que difine un **ambiente computacional** podría ser:
+
+```
+# Define the operating system as Linux
+os: linux
+
+# Use the xenial distribution of Linux
+dist: xenial
+
+# Use the programming language Python
+language: python
+
+# Use version of Python 3.2
+python: 3.2
+
+```
+
+::: box3
+YAML nos será de particular interés para la creación de documentos y presentaciones reproducibles, utilizando quarto.
 :::
+
+
+## Herramientas
+
+El contenido del documento puede estar escrito utilizando diferentes formatos, entre ellos:
+
+-   `Quarto`
+-   `HTML`
+-   `LaTeX`
+-   `CSS`
+
+## Creación de documento básico
+
+1.  Abrir `RStudio`
+2.  File \> New File \> Quarto Document
+3.  Definir características del documento
+
+
+# Markdown
+
+![](images/Markdown_logo.png){width="10%" fig-align="center"}
+
+
+## Formato de Texto
+
++-----------------------------------------+-----------------------------------------+
+| Sintáxis Markdown                       | Salida                                  |
++=========================================+=========================================+
+| ``` markdown                            | *italics*, **bold**, ***bold italics*** |
+| *italics*, **bold**, ***bold italics*** |                                         |
+| ```                                     |                                         |
++-----------------------------------------+-----------------------------------------+
+| ``` markdown                            | superscript^2^ / subscript~2~           |
+| superscript^2^ / subscript~2~           |                                         |
+| ```                                     |                                         |
++-----------------------------------------+-----------------------------------------+
+| ``` markdown                            | ~~strikethrough~~                       |
+| ~~strikethrough~~                       |                                         |
+| ```                                     |                                         |
++-----------------------------------------+-----------------------------------------+
+| ``` markdown                            | `verbatim code`                         |
+| `verbatim code`                         |                                         |
+| ```                                     |                                         |
++-----------------------------------------+-----------------------------------------+
+
+## Encabezados {#headings}
+
++-------------------+-----------------------------------+
+| Sintáxis Markdown | Salida                            |
++===================+===================================+
+| ``` markdown      | # Header 1 {.heading-output}      |
+| # Header 1        |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+| ``` markdown      | ## Header 2 {.heading-output}     |
+| ## Header 2       |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+| ``` markdown      | ### Header 3 {.heading-output}    |
+| ### Header 3      |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+| ``` markdown      | #### Header 4 {.heading-output}   |
+| #### Header 4     |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+| ``` markdown      | ##### Header 5 {.heading-output}  |
+| ##### Header 5    |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+| ``` markdown      | ###### Header 6 {.heading-output} |
+| ###### Header 6   |                                   |
+| ```               |                                   |
++-------------------+-----------------------------------+
+
+```{=html}
+<style type="text/css">
+.heading-output {
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+</style>
+```
+
+
+## Links e Imágenes {.small}
+
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| Markdown Syntax                                                          | Output                                                                                                              |
++==========================================================================+=====================================================================================================================+
+| ``` markdown                                                             | <https://quarto.org>                                                                                                |
+| <https://quarto.org>                                                     |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| ``` markdown                                                             | [Quarto](https://quarto.org)                                                                                        |
+| [Quarto](https://quarto.org)                                             |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| ``` markdown                                                             | ![Caption](images/JIE_logo.png){width="20%" fig-alt="Logo USM"}                                                  |
+| ![Caption](images/JIE_logo.png)                                       |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| ``` markdown                                                             | [![Caption](images/JIE_logo.png){width="20%"}](https://quarto.org)                                               |
+| [![Caption](images/JIE_logo.png)](https://quarto.org)                 |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| ``` markdown                                                             | [![Caption](images/JIE_logo.png "JIE-2024"){width="20%" fig-alt="JIE-2024"}](https://quarto.org)          |
+| [![Caption](images/JIE_logo.png)](https://quarto.org "JIE-2024")      |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+| ``` markdown                                                             | [![](images/JIE_logo.png){width="20%" fig-alt="Alt text."}](https://jornadas-estadistica.github.io/)                                  |
+| [![](images/JIE_logo.png){fig-alt="Alt text"}](https://jornadas-estadistica.github.io/)    |                                                                                                                     |
+| ```                                                                      |                                                                                                                     |
++--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+
+
+
+## Listas {.small}
+
++-----------------------------------+--------------------------------+
+| Sintáxis Markdown                 | Salida                         |
++===================================+================================+
+| ``` markdown                      | -   Lista no ordenada          |
+| * Lista no ordenada               |     -   sub-item 1             |
+|     + sub-item 1                  |     -   sub-item 2             |
+|     + sub-item 2                  |         -   sub-sub-item 1     |
+|         - sub-sub-item 1          |                                |
+| ```                               |                                |
++-----------------------------------+--------------------------------+
+| ``` markdown                      | -   item 2                     |
+| *   item 2                        |                                |
+|                                   |     Continuación (4 spaces)    |
+|     Continuación (4 spaces)       |                                |
+| ```                               |                                |
++-----------------------------------+--------------------------------+
+| ``` markdown                      | 1.  Lista ordenada             |
+| 1. Lista ordenada                 | 2.  item 2                     |
+| 2. item 2                         |     i)  sub-item 1             |
+|     i) sub-item 1                 |         A.  sub-sub-item 1     |
+|          A.  sub-sub-item 1       |                                |
+| ```                               |                                |
++-----------------------------------+--------------------------------+
+
+## Listas
+
++-----------------------------------+--------------------------------+
+| ``` markdown                      | (1) Una lista cuyos números    |
+| (@)  Una lista cuyos números      |                                |
+|                                   | continuan después              |
+| continuan después                 |                                |
+|                                   | (2)  de una interrupción       |
+| (@)  de una interrupción          |                                |
+| ```                               |                                |
++-----------------------------------+--------------------------------+
+| ``` markdown                      | <div>                          |
+| ::: {}                            |                                |
+| 1. Una lista                      | 1.  Una lista                  |
+| :::                               |                                |
+|                                   | </div>                         |
+| ::: {}                            |                                |
+| 1. Seguida de otra lista          | <div>                          |
+| :::                               |                                |
+| ```                               | 1.  Seguida de otra lista      |
+|                                   |                                |
+|                                   | </div>                         |
++-----------------------------------+--------------------------------+
+| ``` markdown                      | término                        |
+| término                           |                                |
+| : definición                      | :   definición                 |
+| ```                               |                                |
++-----------------------------------+--------------------------------+
+
+
+## Tablas
+
+#### Sintáxis Markdown
+
+``` markdown
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+```
+
+#### Output
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|    12 | 12   | 12      |   12   |
+|   123 | 123  | 123     |  123   |
+|     1 | 1    | 1       |   1    |
+
+## Código de fuente
+
+Usamos ```` ``` ```` para delimitar bloques de código:
+
+```` markdown
+```
+código
+```
+````
+
+Podemos agregar un lenguaje para destacar el código:
+
+```` markdown
+```python
+1 + 1
+```
+````
+**Pandoc** ofrece 140 distintos lenguajes para destacar código.
+
+## Guía de referencia
+
+Para una lista exhaustiva de las opciones de formato que tienen los documentos `.qmd` visitar [https://quarto.org/docs/guide/](https://quarto.org/docs/guide/).
+
+## Formatos de salida: Documentos
+
+Los formatos de salida más utilizados para **documentos** creados con `Quarto` son:
+
+- [`HTML`](https://quarto.org/docs/reference/formats/html.html)
+- [`PDF`](https://quarto.org/docs/reference/formats/pdf.html)
+- [`DOCX`](https://quarto.org/docs/reference/formats/docx.html)
+
+. . .
+
+Para cambiar entre estos formatos, basta especificiar la salida deseada en el `YAML`. Otros formatos posibles:
+
+- [`OpenOffice`](https://quarto.org/docs/reference/formats/odt.html)
+- [`ePub`](https://quarto.org/docs/reference/formats/epub.html)
+
+## Formatos de salida: Presentaciones
+
+En Quarto tenemos 3 opciones para presentaciones:
+
+- [`RevealJS`](https://quarto.org/docs/reference/formats/presentations/revealjs.html)
+- [`PowerPoint`](https://quarto.org/docs/reference/formats/presentations/pptx.html)
+- [`Beamer`](https://quarto.org/docs/reference/formats/presentations/beamer.html)
+
+En donde `RevealJS` es el formato que nos entrega más herramientas. (Esta presentación fue hecha utilizando `RevealJS` en `Quarto`)
+
+## Caso práctico
+
+::: box3
+Crearemos un mismo documento en distintos formatos
+:::
+
+[Awesome Quarto](https://github.com/mcanouil/awesome-quarto)
+
+
 
 # Templates
 
