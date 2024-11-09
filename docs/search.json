@@ -522,7 +522,7 @@
     "href": "slides/quarto-github-tutorial.html#configurar-github-pages",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Configurar GitHub Pages",
-    "text": "Configurar GitHub Pages\n\n\n\n\n\n\n\nGuía de referencia\n\n\nGuía de referencia para Github Pages\n\n\n\n\n\nEditar la configuración en GitHub:\n\nIr a Settings &gt; Pages.\nSeleccionar la rama main y la carpeta / (root), o alguna otra carpeta que sea definida para guardar los archivos del sitio web.\nGuardar los cambios.\n\nEl sitio web debería estar disponible en: https://usuario.github.io/mi-pagina-web\n\n\n\n\n\n\n\n\nPara modificar la carpeta de salida del sitio web\n\n\nEn el archivo _quarto.yml:\nproject:\n  type: website\n  output-dir: docs"
+    "text": "Configurar GitHub Pages\n\n\nCrear un repositorio llamado nombre-usuario.github.io. Donde nombre-usuario sea tu nombre de usuario de GitHub.\nIr a Settings &gt; Pages.\nSeleccionar la rama main y la carpeta / (root), o alguna otra carpeta que sea definida para guardar los archivos del sitio web.\nGuardar los cambios.\nLuego puedes clonar el repositorio a alguna carpeta local y comenzar a trabajar. Debe contener algún archivo index.html para funcionar\n\nEl sitio web debería estar disponible en: https://usuario.github.io/mi-pagina-web"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#crear-un-nuevo-repositorio",

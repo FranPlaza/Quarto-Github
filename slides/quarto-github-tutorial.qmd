@@ -771,19 +771,22 @@ Para crear un repositorio local:
 
 ## Configurar GitHub Pages
 
-:::{.callout-note title="Guía de referencia"}
-Guía de referencia para [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-:::
-
 :::{.small}
-Editar la configuración en GitHub:
 
-1. Ir a **Settings** > **Pages**.
-2. Seleccionar la rama `main` y la carpeta `/ (root)`, o alguna otra carpeta que sea definida para guardar los archivos del sitio web.
-3. Guardar los cambios.
+1. Crear un repositorio llamado `nombre-usuario.github.io`. Donde `nombre-usuario` sea tu nombre de usuario de GitHub.
+2. Ir a **Settings** > **Pages**.
+3. Seleccionar la rama `main` y la carpeta `/ (root)`, o alguna otra carpeta que sea definida para guardar los archivos del sitio web.
+4. Guardar los cambios.
+5. Luego puedes clonar el repositorio a alguna carpeta local y comenzar a trabajar. Debe contener algún archivo `index.html` para funcionar
 
 El sitio web debería estar disponible en:
 `https://usuario.github.io/mi-pagina-web`
+:::
+
+---
+
+:::{.callout-note title="Guía de referencia"}
+Guía de referencia para [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 :::
 
 :::{.callout-tip title="Para modificar la carpeta de salida del sitio web"}
