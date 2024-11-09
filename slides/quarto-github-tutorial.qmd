@@ -69,7 +69,7 @@ Es la práctica de conducir estudios científicos o basados en datos de tal mane
 
 |                               | **Descripción**                                                                                     |
 |:-------------------------------------:|:---------------------------------------------------------------------------------------------------|
-| [![](images/R_logo.svg.png){width=40%}](https://cran.dcc.uchile.cl/)  | Lenguaje de programación para análisis de datos y estadísticas.                                     |
+| [![](images/R_logo.svg.png){width=40%}](https://cran.dcc.uchile.cl/)  | Lenguaje de programación para análisis de datos y estadística.                                     |
 | [![](images/RStudio-Logo-Flat.png){width=40%}](https://posit.co/download/rstudio-desktop/) | Entorno de desarrollo integrado para R, ideal para análisis de datos y desarrollo reproducible.    |
 | [![](images/quarto.png){width=40%}](https://quarto.org/docs/get-started/)      | Herramienta para crear documentos reproducibles, reportes y páginas web de alta calidad.           |
 | [![](images/git_github.png){width=40%}](https://github.com/)  | Sistema de control de versiones (Git) y plataforma para compartir proyectos (GitHub). Incluye GitHub Desktop. |
@@ -84,12 +84,14 @@ Es la práctica de conducir estudios científicos o basados en datos de tal mane
 ![](images/rmarkdown_quarto.png){width="50%" fig-align="center"}
 
 ::: box3
-El paquete `rmarkdown` provee un marco de escritura para investigaciones cuentitativas, que combina códigos, resultados y texto. Los documento R Markdown son **completamente reproducibles** y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. `Quarto` es la nueva generación de esta herramienta para incluir distintos lenguajes.
+El paquete `rmarkdown` provee un marco de escritura para investigaciones cuantitativas, que combina códigos, resultados y texto. Los documento R Markdown son **completamente reproducibles** y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. **`Quarto`** es la nueva generación de esta herramienta para incluir distintos lenguajes.
 :::
 
 ## Algunos ejemplos
 
--   [Galería de ejemplos](https://quarto.org/docs/gallery/)
+Quarto posee una galería de ejemplos bastante completa como para comenzar a investigar y visualizar en distintos tipos de documentos.
+
+[![](images/quarto-examples.png)](https://quarto.org/docs/gallery/)
 
 ## Quarto
 
@@ -116,7 +118,7 @@ Los archivos `Quarto` fueron diseñados para ser usados de tres maneras:
 -   `qmd`: archivo de origen
 -   `knitr`: Herramienta que interpreta y ejecuta códigos y lo traduce en texto **markdown**
 -   `md`: texto escrito en lenguaje **markdown**
--   `pandoc`: Herramienta que convierte archivos `.md` enb distintos formatos
+-   `pandoc`: Herramienta que convierte archivos `.md` en distintos formatos
 
 ## Anatomía de un documento Quarto
 

@@ -249,14 +249,14 @@
     "href": "slides/quarto-github-tutorial.html#rmarkdown-quarto",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Rmarkdown & Quarto",
-    "text": "Rmarkdown & Quarto\n\n\nEl paquete rmarkdown provee un marco de escritura para investigaciones cuentitativas, que combina códigos, resultados y texto. Los documento R Markdown son completamente reproducibles y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. Quarto es la nueva generación de esta herramienta para incluir distintos lenguajes."
+    "text": "Rmarkdown & Quarto\n\n\nEl paquete rmarkdown provee un marco de escritura para investigaciones cuantitativas, que combina códigos, resultados y texto. Los documento R Markdown son completamente reproducibles y permiten generar archivos en distintos formatos: PDF, Word, Presentaciones y más. Quarto es la nueva generación de esta herramienta para incluir distintos lenguajes."
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#algunos-ejemplos",
     "href": "slides/quarto-github-tutorial.html#algunos-ejemplos",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Algunos ejemplos",
-    "text": "Algunos ejemplos\n\nGalería de ejemplos"
+    "text": "Algunos ejemplos\nQuarto posee una galería de ejemplos bastante completa como para comenzar a investigar y visualizar en distintos tipos de documentos."
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#quarto-2",
@@ -277,7 +277,7 @@
     "href": "slides/quarto-github-tutorial.html#flujo-documento-quarto",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Flujo documento Quarto",
-    "text": "Flujo documento Quarto\n\n\nqmd: archivo de origen\nknitr: Herramienta que interpreta y ejecuta códigos y lo traduce en texto markdown\nmd: texto escrito en lenguaje markdown\npandoc: Herramienta que convierte archivos .md enb distintos formatos"
+    "text": "Flujo documento Quarto\n\n\nqmd: archivo de origen\nknitr: Herramienta que interpreta y ejecuta códigos y lo traduce en texto markdown\nmd: texto escrito en lenguaje markdown\npandoc: Herramienta que convierte archivos .md en distintos formatos"
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#anatomía-de-un-documento-quarto",
@@ -536,7 +536,7 @@
     "href": "slides/quarto-github-tutorial.html#sofware-necesarios",
     "title": "Mini curso: Quarto y GitHub Pages",
     "section": "Sofware necesarios",
-    "text": "Sofware necesarios\n\n\n\n\n\n\n\n\n\nDescripción\n\n\n\n\n\nLenguaje de programación para análisis de datos y estadísticas.\n\n\n\nEntorno de desarrollo integrado para R, ideal para análisis de datos y desarrollo reproducible.\n\n\n\nHerramienta para crear documentos reproducibles, reportes y páginas web de alta calidad.\n\n\n\nSistema de control de versiones (Git) y plataforma para compartir proyectos (GitHub). Incluye GitHub Desktop."
+    "text": "Sofware necesarios\n\n\n\n\n\n\n\n\n\nDescripción\n\n\n\n\n\nLenguaje de programación para análisis de datos y estadística.\n\n\n\nEntorno de desarrollo integrado para R, ideal para análisis de datos y desarrollo reproducible.\n\n\n\nHerramienta para crear documentos reproducibles, reportes y páginas web de alta calidad.\n\n\n\nSistema de control de versiones (Git) y plataforma para compartir proyectos (GitHub). Incluye GitHub Desktop."
   },
   {
     "objectID": "slides/quarto-github-tutorial.html#quarto-1",
