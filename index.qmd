@@ -16,4 +16,4 @@ about:
       href: https://github.com/FranPlaza/Quarto-Github
 ---
 
-Las slides que usaremos para este curso pueden ser [accedidas acá](slides/quarto-github-tutorial.html)
+Las slides que usaremos para este curso pueden ser revisadas en el siguiente [enlace](slides/quarto-github-tutorial.html)
